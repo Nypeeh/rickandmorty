@@ -1,10 +1,4 @@
-import {
-  Dispatch,
-  SetStateAction,
-  useEffect,
-  useCallback,
-  useState,
-} from 'react'
+import { useEffect, useCallback, useState } from 'react'
 
 import { FaHeart, FaSadTear, FaTimes } from 'react-icons/fa'
 import { useFavorites } from '../../hooks/Favorites'
