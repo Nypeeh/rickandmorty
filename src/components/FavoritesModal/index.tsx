@@ -116,7 +116,7 @@ const FavoritesModal: React.FC<FavoritesModalProps> = ({
           </>
         )}
       </Container>
-      <Overlay />
+      <Overlay onClick={handleToggleModalFavorites} />
     </>
   )
 }

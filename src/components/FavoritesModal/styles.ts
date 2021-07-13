@@ -8,7 +8,7 @@ export const Container = styled.div`
   left: 50%;
   background-color: white;
   color: #4b4b4b;
-  width: 90vw;
+  width: 95vw;
   height: 90vh;
   border-radius: 1.5rem;
   transform: translate(-50%, -50%);
@@ -87,6 +87,12 @@ export const Container = styled.div`
     margin: 2rem auto 0;
     font-size: 5rem;
     color: ${shade(0.1, '#d3455b')};
+  }
+
+  @media (max-width: 520px) {
+    > h2:nth-of-type(1) {
+      margin-top: 2rem;
+    }
   }
 `
 

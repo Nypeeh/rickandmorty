@@ -25,6 +25,7 @@ export const Container = styled.div`
 
   > img {
     display: block;
+    width: 100%;
     max-width: 600px;
     max-height: 400px;
     margin: 0 auto;
