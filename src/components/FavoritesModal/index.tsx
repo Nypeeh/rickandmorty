@@ -43,6 +43,7 @@ const FavoritesModal: React.FC<FavoritesModalProps> = ({
 
     if (!favorites[0]) {
       setIsErrored(true)
+      setIsLoading(false)
 
       addToast({
         type: 'error',
