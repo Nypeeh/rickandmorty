@@ -1,6 +1,15 @@
 # RickAndMorty
 
+Link da aplicação em produção: https://rickandmorty-one.vercel.app/
+
 ## Layout Web
+
+![Web_After_Search](https://user-images.githubusercontent.com/71713087/125507993-8aff3193-0f6b-4c30-aa7a-18f3e27720d0.png)
+
+## Layout Mobile
+
+![Mobile_After_Search](https://user-images.githubusercontent.com/71713087/125508160-b6c57de4-996f-45ba-89f4-e44cff09a6d1.png)
+![Mobile_Before_Search](https://user-images.githubusercontent.com/71713087/125508124-15acff8e-67e0-4ff4-b408-b1b2b10f1ad8.png)
 
 # Tecnologias utilizadas
 
