@@ -30,6 +30,7 @@
     "no-undef": "off",
     "comma-dangle": "off",
     "no-unused-vars": "warn",
-    "multiline-ternary": "off"
+    "multiline-ternary": "off",
+    "camelcase": "off"
   }
 }

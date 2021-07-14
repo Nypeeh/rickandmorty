@@ -17,8 +17,13 @@ export default createGlobalStyle`
   body {
     -webkit-font-smoothing: antialiased;
     -ms-font-smoothing: antialiased;
+    background: #312e38;
+    color: #fff;
   }
 
+  body, input, button {
+    font: 400 1rem 'Poppins', serif;
+  }
 
   /* width */
   ::-webkit-scrollbar {
@@ -32,12 +37,12 @@ export default createGlobalStyle`
 
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background-color: #159fed;
+    background-color: #ff9000;
     border-radius: 0.5rem;
     transition: background-color 0.3s ease;
 
     :hover {
-      background-color: ${shade(0.2, '#159fed')};
+      background-color: ${shade(0.2, '#ff9000')};
     }
   }
 
