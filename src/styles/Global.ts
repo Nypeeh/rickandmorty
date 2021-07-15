@@ -25,6 +25,7 @@ export default createGlobalStyle`
     font: 400 1rem 'Poppins', serif;
   }
 
+  /* width */
   ::-webkit-scrollbar {
     width: 10px;
   }
